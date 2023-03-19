@@ -886,13 +886,13 @@ footer ul{
   position: fixed;
   bottom: 50px;
   right: 0;
-  background-color: #DDD;
-  color: #555;
+  background-color: #042a3f;
+  color: #fff;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
 }
 #back2Top:hover {
   background-color: #DDF;
-  color: #000;
+  color: #042a3f;
 }
