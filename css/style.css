@@ -789,11 +789,11 @@ footer ul{
 .footer{
   background-color: #042a3f;
   color:#fff;
-    padding: 70px 0;
+  padding: 30px 45px 20px 45px
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding: 0;
 }
 .footer-col h4{
   font-size: 18px;
@@ -857,4 +857,14 @@ footer ul{
   .footer-col{
     width: 100%;
 }
+}
+
+/* View All */
+.view-all>* {
+  background: #fff;
+}
+
+.view-all.action .ks-button{
+  border: 2px solid #042a3f;
+    color: #042a3f;
 }
