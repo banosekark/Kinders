@@ -115,15 +115,32 @@
     background-image: url(../images/hp-bg1678435526150.jpg);
   }
 
-  /* Top Arrival */
-.new-arrival {
-  background:#eee;
-  width:100%;
-  float: left;
-  padding:30px 45px 20px 45px;
+
+
+/*--------------- Toys Section ----------*/
+.toys-categries {
+  padding: 30px 45px 20px 45px
 }
 
-.new-arrival .slide-box { 
+.toys-categries .view-toys .wrap .box{
+  border: none;
+}
+.toys-categries .view-toys .wrap .box:hover{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border:1px solid #b3b3b3;
+}
+
+.toys-categries .view-toys .product-info{
+  padding:15px;
+}
+.toys-categries .view-toys .product-info h6{
+  font-size: 1rem;
+}
+
+/* Footer */
+
+.footer {
+  padding: 30px 45px 20px 45px
 }
 
 }
@@ -150,6 +167,29 @@
  .topnav a:first-child {
   margin-left: 0px;
  }
+
+   /* Top Arrival */
+.new-arrival {
+  background:#eee;
+  width:100%;
+  float: left;
+  padding:30px 45px 20px 45px;
+}
+
+.box .box-content {
+  position: absolute;
+  bottom: -180px;
+}
+.box:hover .box-content {
+  bottom: -1px;
+  letter-spacing:  2px;
+}
+.box .box-content h4 {
+  font-size: 1.1rem;
+}
+.box:hover .box-content .social-icons li {
+  transform: translateY(6px);
+}
 
 
   
