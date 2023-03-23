@@ -742,7 +742,8 @@ a:visited {
 .toys-categries .view-toys .wrap .box{
   overflow: hidden;
   margin-bottom: 20px;
-  border:1px solid #b3b3b3;;
+  border:1px solid #b3b3b3;
+  border-radius: 10px;
 }
 .toys-categries .view-toys .wrap .box:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
