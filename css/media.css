@@ -137,6 +137,14 @@
   font-size: 1rem;
 }
 
+/* button */
+.ks-button {
+  padding-left: 22px;
+    padding-right: 22px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
 /* Footer */
 
 .footer {

@@ -772,8 +772,13 @@ a:visited {
   color:#898989
 }
 
+.view-toys .product-info .name .price {
+  line-height: 0;
+}
+
 .view-toys .product-info .name .offer {
-  color:#ff2727
+  color:#ff2727;
+  /* margin-bottom: 10px; */
 }
 
 /* .toys-categries .view-toys .box:hover .wrap{
@@ -815,19 +820,19 @@ a:visited {
     border-radius: 0;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.9rem;
     padding: 10px;
     display: inline-block;
     border-radius: 2px;
     cursor: pointer;
-    letter-spacing: 1px;
+    
     outline: 0;
     text-decoration: none!important;
     background: #fff;
-    padding-left: 22px;
-    padding-right: 22px;
     color: #DC582A;
 }
+
+
 
 
 
