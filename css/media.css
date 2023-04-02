@@ -122,18 +122,18 @@
   padding: 30px 45px 20px 45px
 }
 
-.toys-categries .view-toys .wrap .box{
+.view-toys .wrap .box{
   border: none;
 }
-.toys-categries .view-toys .wrap .box:hover{
+.view-toys .wrap .box:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   border:1px solid #b3b3b3;
 }
 
-.toys-categries .view-toys .product-info{
+.view-toys .product-info{
   padding:15px;
 }
-.toys-categries .view-toys .product-info h6{
+.view-toys .product-info h6{
   font-size: 1rem;
 }
 
@@ -173,6 +173,10 @@
   background:#eee;
   width:100%;
   float: left;
+  padding:30px 45px 20px 45px;
+}
+
+.container-padding {
   padding:30px 45px 20px 45px;
 }
 
