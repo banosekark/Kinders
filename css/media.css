@@ -99,6 +99,13 @@
     width: calc(100% - 17rem);
   }
 
+  /* Product */
+  .product .product-section .section-heading p {
+    
+    margin-left:15px;
+    
+  }
+
   /*********** banner ***********/
   .banner {
     height: auto;
@@ -139,8 +146,6 @@
 
 /* button */
 .ks-button {
-  padding-left: 22px;
-    padding-right: 22px;
     font-size: 14px;
     letter-spacing: 1px;
 }

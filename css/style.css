@@ -765,7 +765,8 @@ a:visited {
  position: relative;
 }
 .view-toys .product-info h6{
-  font-size:0.9rem ;
+  font-size: 14px;
+    font-weight: bold;
 }
 
 .view-toys .product-info .name p {
@@ -778,7 +779,8 @@ a:visited {
 
 .view-toys .product-info .name .offer {
   color:#ff2727;
-  /* margin-bottom: 10px; */
+  font-size: 12px;
+  margin-bottom:10px;
 }
 
 /* .toys-categries .view-toys .box:hover .wrap{
@@ -810,6 +812,7 @@ a:visited {
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
     
+    
 }
 
 
@@ -820,7 +823,7 @@ a:visited {
     border-radius: 0;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 12px;
     padding: 10px;
     display: inline-block;
     border-radius: 2px;
@@ -986,7 +989,6 @@ padding: 15px;
 .product .product-section .section-heading p {
   font-size: 1rem;
   color: #898989;
-  margin-left:15px;
   
 }
 .product .categories-section .categoriy-conetnt {
@@ -1010,6 +1012,12 @@ padding: 15px;
   background-color: red;
   
 
+}
+
+.product .product-section .category-scroll img{
+  margin-right: 15px;
+  margin-bottom: 10px;
+  
 }
 
 
