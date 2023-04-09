@@ -131,6 +131,7 @@
 
 .view-toys .wrap .box{
   border: none;
+  padding:10px;
 }
 .view-toys .wrap .box:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);

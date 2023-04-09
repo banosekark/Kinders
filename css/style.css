@@ -740,13 +740,17 @@ a:visited {
 
 /*--------------- Toys Section ----------*/
 .toys-categries {
-  /* padding: 20px 1; */
+ 
+}
+
+.view-toys .wrap {
+  padding:5px;
 }
 
 
 .view-toys .wrap .box{
   overflow: hidden;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
   border:1px solid #b3b3b3;
   border-radius: 10px;
 }
@@ -1014,10 +1018,24 @@ padding: 15px;
 
 }
 
-.product .product-section .category-scroll img{
-  margin-right: 15px;
-  margin-bottom: 10px;
-  
+
+
+
+.product .product-section .category-scroll {
+  max-height: 120px;
+  overflow-x: auto;
+}
+.category-scroll::-webkit-scrollbar {
+  width:0
+}
+.category-scroll .item {
+  min-width:80px;
+  text-align: center;
+ margin-right: 2px;
 }
 
-
+.product .product-section .category-scroll .item p{
+  font-size: 14px;
+  padding-top:5px;
+  
+}
